@@ -1,0 +1,13 @@
+import turtle
+
+tur = turtle.Turtle()
+
+
+def square(length, angle):
+  for i in range(4):
+    tur.forward(length)
+    tur.right(angle)
+    
+for i in range(100):
+  square(60,90)
+  tur.right(10)
