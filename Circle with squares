@@ -1,7 +1,7 @@
 import turtle
 
 tur = turtle.Turtle()
-tur.speed(0) 
+tur.speed(0)      #Change speed here
 
 def square(length, angle):
   for i in range(4):
