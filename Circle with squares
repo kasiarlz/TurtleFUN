@@ -1,13 +1,13 @@
 import turtle
 
 tur = turtle.Turtle()
-tur.speed(0)      #Change speed here
+tur.speed(0)      #Change speed here 
 
 def square(length, angle):
   for i in range(4):
     tur.forward(length)
     tur.right(angle)
     
-for i in range(100):
+for i in range(100):    # you can change range
   square(60,90)
   tur.right(10)
