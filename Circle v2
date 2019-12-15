@@ -1,0 +1,21 @@
+import turtle 
+
+ice = turtle.Turtle()
+
+ice.speed(10)
+
+for i in range(180):
+    ice.forward(100)
+    ice.right(30)
+    ice.forward(20)
+    ice.left(60)
+    ice.forward(50)
+    ice.right(30)
+    
+    ice.penup()
+    ice.setposition(0, 0)
+    ice.pendown()
+    
+    ice.right(2)
+    
+turtle.done()
