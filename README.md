@@ -7,4 +7,4 @@ Fun stuff with Turtle
 
 Different colors and shapes.
 
-On click function added
+On click multiple colors function added
