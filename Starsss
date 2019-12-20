@@ -1,0 +1,9 @@
+import turtle 
+
+wow = turtle.Turtle()
+
+for i in range(20):
+    wow.forward(i * 20)
+    wow.right(144)
+    
+turtle.done()
