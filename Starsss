@@ -3,7 +3,7 @@ import turtle
 wow = turtle.Turtle()
 
 for i in range(20):
-    wow.forward(i * 20)     # if you put 5  or 10 it will be smaller
+    wow.forward(i * 20)     # if you put 5  or 10 it will be smaller !
     wow.right(144)
     
 turtle.done()
